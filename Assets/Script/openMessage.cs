@@ -14,6 +14,5 @@ public class openMessage : MonoBehaviour
     public void openOtherMessage() {
         switchMessage = !switchMessage;
         canvas2.SetActive(switchMessage);
-        Debug.Log(switchMessage);
     }
 }
