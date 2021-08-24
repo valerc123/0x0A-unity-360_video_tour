@@ -24,5 +24,6 @@ public class sceneSelection : MonoBehaviour
     public void openMessage () {
         switchMessage = !switchMessage;
         canvas.SetActive(switchMessage);
+        Debug.Log(switchMessage);
     }
 }
